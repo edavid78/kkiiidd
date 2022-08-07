@@ -9,11 +9,11 @@ jobs:
     uses: actions/checkout@v2
   - name: Deploy file
     uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-     with:
-      username: MuKimP8@9AwX0T
-      server: rg0.8c1.myftpupload.com
-      port: 22
-      local_path: './*'
-      remote_path: '/wp-content/themes/'
-      sftp_only: true
-      password: LYk6lKRuyz=zFc
+    with:
+     username: MuKimP8@9AwX0T
+     server: rg0.8c1.myftpupload.com
+     port: 22
+     local_path: './*'
+     remote_path: '/wp-content/themes/'
+     sftp_only: true
+     password: LYk6lKRuyz=zFc
