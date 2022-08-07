@@ -11,7 +11,7 @@ jobs:
     uses: wlixcc/SFTP-Deploy-Action@v1.2.4
     with:
      username: MuKimP8@9AwX0T
-     server: MuKimP8@9AwX0T@rg0.8c1.myftpupload.comm
+     server: MuKimP8@9AwX0T@rg0.8c1.myftpupload.com
      port: 22
      local_path: './*'
      remote_path: 'wp-content/themes/'
